@@ -1,19 +1,37 @@
-# Python
+# ---------------- PYTHON ----------------
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.sqlite3
 db.sqlite3
+
+# ENV
 .env
+.env.*
 venv/
 .venv/
+env/
 
-# Node
-node_modules/
-dist/
-
-# Django
+# ---------------- DJANGO ----------------
 media/
 staticfiles/
+*.log
 
-# OS
+# ---------------- NODE / REACT ----------------
+node_modules/
+dist/
+build/
+
+# ---------------- OS ----------------
 .DS_Store
 Thumbs.db
+
+# ---------------- EDITORS ----------------
+.vscode/
+.idea/
+
+# ---------------- CACHE ----------------
+.cache/
+.pytest_cache/
+.mypy_cache/
